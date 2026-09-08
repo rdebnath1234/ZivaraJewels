@@ -2,6 +2,16 @@
 
 A responsive React storefront for Zivara Jewels. It includes the supplied campaign artwork, product collection filters, add-to-bag count, and email signup feedback.
 
+## Screenshots
+
+### Desktop
+
+![Zivara Jewels desktop storefront](screenshots/storefront-desktop.png)
+
+### Mobile
+
+![Zivara Jewels mobile storefront](screenshots/storefront-mobile.png)
+
 ## Requirements
 
 - Node.js 18 or later
