@@ -2,41 +2,43 @@ import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
+const asset = (path) => `${import.meta.env.BASE_URL}assets/${path}`;
+
 const products = [
   {
     name: 'Silver Bloom Necklace Set',
     description: 'Floral oxidized artistry with a touch of tradition',
     price: '₹230',
     category: 'necklaces',
-    image: '/assets/products/Silver Bloom Necklace Set — Floral oxidized artistry with a touch of tradition.jpg',
+    image: asset('products/Silver Bloom Necklace Set — Floral oxidized artistry with a touch of tradition.jpg'),
   },
   {
     name: 'Mirror Mystique Choker',
     description: 'Afghan-inspired statement with jhumkas',
     price: '₹380',
     category: 'necklaces',
-    image: '/assets/products/Mirror Mystique Choker — Afghan-inspired statement with jhumkas.jpg',
+    image: asset('products/Mirror Mystique Choker — Afghan-inspired statement with jhumkas.jpg'),
   },
   {
     name: 'Rainbow Whisper Rings',
     description: 'Vibrant AD stones for a pop of colour',
     price: '₹120(each)',
     category: 'rings',
-    image: '/assets/products/Rainbow Whisper Rings — Vibrant AD stones for a pop of colour.jpg',
+    image: asset('products/Rainbow Whisper Rings — Vibrant AD stones for a pop of colour.jpg'),
   },
   {
     name: 'Golden Heart Long Set',
     description: 'Timeless grace for festive moments',
     price: '₹350',
     category: 'necklaces',
-    image: '/assets/products/Golden Heart Long Set — Timeless grace for festive moments.jpg',
+    image: asset('products/Golden Heart Long Set — Timeless grace for festive moments.jpg'),
   },
   {
     name: 'Evil Eye Star Anklets',
     description: 'Delicate protection for daily wear',
     price: '₹50(pair)',
     category: 'anklets',
-    image: '/assets/products/Evil Eye Star Anklets — Delicate protection, daily wear.jpg',
+    image: asset('products/Evil Eye Star Anklets — Delicate protection, daily wear.jpg'),
   },
 ];
 
@@ -79,7 +81,7 @@ function App() {
       <div className="notice">Complimentary shipping on orders over ₹1,499</div>
       <header>
         <a className="brand" href="#top" aria-label="Zivara Jewels home">
-          <img src="/assets/business-logo.jpg" alt="Zivara Jewels logo" />
+          <img src={asset('business-logo.jpg')} alt="Zivara Jewels logo" />
           <span>ZIVARA JEWELS</span>
         </a>
         <nav aria-label="Main navigation">
@@ -143,7 +145,7 @@ function App() {
             <button type="submit">Subscribe</button>
           </form>
         </section>
-        <img className="campaign" src="/assets/about-us.jpg" alt="Zivara Jewels campaign" />
+        <img className="campaign" src={asset('about-us.jpg')} alt="Zivara Jewels campaign" />
       </main>
 
       <footer>© 2026 Zivara Jewels. Sparkle, shine, be you.</footer>
