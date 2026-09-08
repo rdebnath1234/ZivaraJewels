@@ -21,7 +21,7 @@ h2 { margin:8px 0 28px; font-size:clamp(29px,3vw,42px); font-weight:normal; }
 .button { display:inline-block; width:max-content; padding:12px 18px; color:#fff; background:var(--wine); font-size:13px; font-weight:bold; }
 .button:hover { background:#45101c; }
 .payment-card { display:flex; align-items:center; gap:18px; padding:16px; border:1px solid #dec49e; background:#fffaf4; box-shadow:0 12px 26px rgb(90 17 24 / 10%); }
-.payment-card img { width:130px; min-width:130px; height:168px; object-fit:cover; object-position:center; }
+.payment-card img { width:220px; min-width:220px; height:220px; object-fit:cover; }
 .payment-copy h2 { margin:6px 0 9px; font-size:clamp(24px,2.5vw,32px); }
 .payment-copy p { margin:0; font-size:14px; }
 .products { padding:70px 24px; background:#f7eddc; }
@@ -52,7 +52,7 @@ footer { padding:28px 24px; color:#f8e7cf; background:var(--brown); text-align:c
   nav { display:none; }
   .hero-layout { grid-template-columns:1fr; gap:28px; padding:48px 24px; }
   .payment-card { flex-direction:column; align-items:center; gap:16px; text-align:center; }
-  .payment-card img { width:180px; min-width:0; height:234px; }
+  .payment-card img { width:240px; min-width:0; height:240px; }
   .payment-copy h2 { font-size:26px; }
   .product-list { grid-template-columns:repeat(2,1fr); }
 }

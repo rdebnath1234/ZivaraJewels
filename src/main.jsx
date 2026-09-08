@@ -102,7 +102,7 @@ function App() {
               <a className="button" href="#products">Shop new arrivals</a>
             </div>
             <aside className="payment-card" aria-label="Online payment details">
-              <img src={asset('payment-qr-code.jpg')} alt="Zivara Jewels UPI payment QR code" />
+              <img src={asset('payment-qr-code-closeup.jpg')} alt="Zivara Jewels UPI payment QR code" />
               <div className="payment-copy">
                 <span className="eyebrow">Order & pay online</span>
                 <h2>Pay securely with UPI</h2>
