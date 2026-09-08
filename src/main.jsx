@@ -94,11 +94,21 @@ function App() {
 
       <main id="top">
         <section className="hero">
-          <div className="hero-copy">
-            <span className="eyebrow">Made for your moments</span>
-            <h1>Jewels that make you the occasion.</h1>
-            <p>Thoughtfully designed adornments for celebrations, big entrances, and everything beautiful in between.</p>
-            <a className="button" href="#products">Shop new arrivals</a>
+          <div className="hero-layout">
+            <div className="hero-copy">
+              <span className="eyebrow">Made for your moments</span>
+              <h1>Jewels that make you the occasion.</h1>
+              <p>Thoughtfully designed adornments for celebrations, big entrances, and everything beautiful in between.</p>
+              <a className="button" href="#products">Shop new arrivals</a>
+            </div>
+            <aside className="payment-card" aria-label="Online payment details">
+              <img src={asset('payment-qr-code.jpg')} alt="Zivara Jewels UPI payment QR code" />
+              <div className="payment-copy">
+                <span className="eyebrow">Order & pay online</span>
+                <h2>Pay securely with UPI</h2>
+                <p>We accept online payments for every order. Scan the QR code to pay with any UPI app.</p>
+              </div>
+            </aside>
           </div>
         </section>
 
