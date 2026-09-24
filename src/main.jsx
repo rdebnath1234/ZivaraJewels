@@ -36,7 +36,7 @@ const products = [
   {
     name: 'Rajwadi Long Haar Combo',
     description: 'A regal long haar with matching earrings and ring',
-    price: 'Price on request',
+    price: '₹399',
     category: 'necklaces',
     image: asset('products/Rajwadi Long Haar Combo.png'),
   },
