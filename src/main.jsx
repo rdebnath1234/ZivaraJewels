@@ -34,6 +34,13 @@ const products = [
     image: asset('products/Golden Heart Long Set — Timeless grace for festive moments.jpg'),
   },
   {
+    name: 'Rajwadi Long Haar Combo',
+    description: 'A regal long haar with matching earrings and ring',
+    price: 'Price on request',
+    category: 'necklaces',
+    image: asset('products/Rajwadi Long Haar Combo.png'),
+  },
+  {
     name: 'Evil Eye Star Anklets',
     description: 'Delicate protection for daily wear',
     price: '₹50(pair)',
